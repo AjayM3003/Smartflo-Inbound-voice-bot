@@ -49,14 +49,6 @@ pip install -r requirements.txt
 
 ### 4. Configure Environment Variables
 
-```powershell
-# Copy the example env file
-Copy-Item .env.example .env
-
-# Edit .env and add your Google API key
-notepad .env
-```
-
 Update the `.env` file:
 ```
 GOOGLE_API_KEY=your-actual-google-api-key-here
